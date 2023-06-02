@@ -31,22 +31,52 @@ h1{
     font-family: fantasy;
     text-align: center;
 }
+
 h2,h3,h4{
-    padding: 20px;
-    color: azure;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.678);
+    font-family: fantasy;
+    text-align: center;
 }
-dl{
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-style: initial;
     color: aliceblue;
 }
+nav{
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav > a{
+    color: azure;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav > a:hover{
+    color: darksalmon;
+    border: 1px solid darksalmon;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 img{
+    margin: 10px;
     width: 300px;
     height: 200px;
     border: 3px solid purple;
     display:block;
     margin:auto;
 }
+img:hover{
+    max-width: 600px;
+    max-height: 400px;
+    transition: transform 0.3,border 0.3s;
+    transform: scale(1.1);
+    border: dotted rebeccapurple;
+}
 .centro{
+    
     width: 500px;
     height: 300px;
     border: 3px solid rgb(21, 97, 97);
@@ -63,43 +93,64 @@ img{
 }
 
 p{
+    margin: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
     font-size: medium;
     font-style: initial;
     color: aliceblue;
 }
+
 table{
-    margin: auto;
+    margin: 20px;
 }
 th{
+    padding: 10px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
     font-size: medium;
     font-style: initial;
     color: aliceblue;
-    width: 300px;
-    height: 50px;
-    border: 2px solid purple;
+   border: 2px solid purple;
 }
 td{
+    padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
     font-size: medium;
     font-style: initial;
     color: aliceblue;
-    width: 400px;
+    border: 2px solid rgb(85, 24, 24);
+}
+.num{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: medium;
+    font-style: initial;
+    color: aliceblue;
+    width: 50px;
     height: 150px;
     border: 2px solid rgb(85, 24, 24);
 }
 ul{
     margin: 40px;
     list-style-type: none;
-    list-style-image: url(imagenes/icons8-anime-50.png);
+    list-style-image: url(imagenes/icons8-anime-16.png);
     color: aliceblue;
 }
 .final{
     text-align: center;
     color: black;
+}
+figure{
+   
+    text-align: center;
+}
+dl{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: medium;
+    font-style: initial;
+    color: aliceblue;
 }
