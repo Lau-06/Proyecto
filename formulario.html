@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="esti.css">
+</head>
+<body>
+    <h1>Bienvenido</h1>
+    <p>Este formulario es con el fin de enrriqueser nuestro contenido, cualquier observacion que tengas no dudes en decirnoslo! </p>
+    <form action="proyec.js" method="post">
+    <fieldset>
+        <legend class="texto">Usuario</legend>
+        <p class="texto">
+            Nombre
+            <input type="text"  name="nombre" id="nombre" placeholder="Laura" required>
+        </p>
+        
+        <p class="texto">
+            Apellido
+            <input type="text" name="apellido" id="apellido" placeholder="Rodriguez Sanchez" required>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend class="texto">Datos</legend>
+        <p class="texto">
+            Correo
+            <input type="email" id="correo">
+        </p>
+        <p class="texto">
+            Contraseña
+            <input type="password" placeholder="contraseña" title="4-8 caracteres">
+        </p>
+        <p class="texto">
+            Fecha
+            <input type="date">
+        </p>
+        <p class="texto">
+            Edad
+            <input type="number" min="18" max="30">
+        </p>
+        <p class="texto">
+            El contenido consideras que fue:
+            <input type="radio" name="respuesta" value="0" required>Bueno
+            <input type="radio" name="respuesta" value="1" > Puede mejorar
+            <input type="radio" name="respuesta" value="2" > Malo
+        </p>
+        <p class="texto">
+            Ingresa una imagen de tu agrado o que te gustaria que apareciera
+            <input type="file"  accept=".png">
+        </p>
+        <p class="texto">
+            Clasifica nuestro contenido
+            <br>
+            0 - 1 - 2 - 3 - 4 - 5 
+            <br>
+           0<input type="range"  min="0" max="5" step="2">5
+        </p>
+        <p class="texto">
+            Comentanos tus observaciones
+            <textarea name="" id="" cols="30" rows="2" placeholder="Ingresa tus comentarios"></textarea>
+        </p>
+     <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</form>
+</body>
+</html>

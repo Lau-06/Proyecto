@@ -1,0 +1,25 @@
+
+body{
+    background-color: rgb(83, 48, 48);
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    color: bisque;
+}
+p{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: medium;
+    font-style: initial;
+    color: aliceblue;
+}
+fieldset{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: medium;
+    font-style: initial;
+    color: aliceblue;
+}
