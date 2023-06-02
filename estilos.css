@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(182, 133, 133);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    margin: 10px 3%;
+    padding: 30px 10%;
+    background-color: rgba(95, 47, 83, 0.801);
+    color:rgba(134, 3, 3, 0.541);
+}
+main{
+    margin: 10px 3%;
+    padding: 30px 10%;
+    color: azure;
+    background-color: rgb(83, 48, 48);
+}
+footer{
+    margin: 10px 3%;
+    padding: 30px 10%;
+    background-color: rgba(95, 47, 83, 0.801);
+}
+section{
+        padding: 10px 5%;
+}
+h1{
+    padding: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+h2,h3,h4{
+    padding: 20px;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+dl{
+    color: aliceblue;
+}
+img{
+    width: 300px;
+    height: 200px;
+    border: 3px solid purple;
+    display:block;
+    margin:auto;
+}
+.centro{
+    width: 500px;
+    height: 300px;
+    border: 3px solid rgb(21, 97, 97);
+}
+.manga{
+    width: 500px;
+    height: 300px;
+    border: 3px solid rgb(97, 22, 22);
+}
+.anim{
+    width: 400px;
+    height: 250px;
+    border: 3px solid rgb(124, 53, 124);
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: medium;
+    font-style: initial;
+    color: aliceblue;
+}
+table{
+    margin: auto;
+}
+th{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    font-size: medium;
+    font-style: initial;
+    color: aliceblue;
+    width: 300px;
+    height: 50px;
+    border: 2px solid purple;
+}
+td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: medium;
+    font-style: initial;
+    color: aliceblue;
+    width: 400px;
+    height: 150px;
+    border: 2px solid rgb(85, 24, 24);
+}
+ul{
+    margin: 40px;
+    list-style-type: none;
+    list-style-image: url(imagenes/icons8-anime-50.png);
+    color: aliceblue;
+}
+.final{
+    text-align: center;
+    color: black;
+}
