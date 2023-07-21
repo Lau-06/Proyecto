@@ -28,18 +28,18 @@ section{
 }
 h1{
     padding: 20px;
-    font-family: fantasy;
+    font-family: sans-serif;
     text-align: center;
 }
 
 h2,h3,h4{
     padding: 10px;
     color: rgba(255, 255, 255, 0.678);
-    font-family: fantasy;
+    font-family: sans-serif;
     text-align: center;
 }
 a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial;
     font-size: small;
     font-style: initial;
     color: aliceblue;
@@ -94,7 +94,7 @@ img:hover{
 
 p{
     margin: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial;
     text-align: justify;
     font-size: medium;
     font-style: initial;
@@ -107,7 +107,7 @@ table{
 th{
     padding: 10px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial;
     font-size: medium;
     font-style: initial;
     color: aliceblue;
@@ -115,7 +115,7 @@ th{
 }
 td{
     padding: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial;
     text-align: justify;
     font-size: medium;
     font-style: initial;
@@ -123,7 +123,7 @@ td{
     border: 2px solid rgb(85, 24, 24);
 }
 .num{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Arial;
     text-align: center;
     font-size: medium;
     font-style: initial;
@@ -148,7 +148,7 @@ figure{
 }
 dl{
     margin: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial;
     text-align: justify;
     font-size: medium;
     font-style: initial;
